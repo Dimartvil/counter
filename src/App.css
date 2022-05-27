@@ -18,3 +18,12 @@
 .logo{
   min-height: 50px;
 }
+
+.main-container{
+  height: 500px;
+  min-width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

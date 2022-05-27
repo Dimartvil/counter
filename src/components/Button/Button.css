@@ -1,0 +1,32 @@
+button{
+  width: 250px;
+  height: 80px;
+  font-size: 22px;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  color: whitesmoke;
+  border-radius: 15px;
+  margin: 5px;
+  cursor: pointer;
+
+  transition: ease-in 100ms;
+  opacity: 1;
+}
+
+button:hover{
+  opacity: .8;
+}
+
+.click-button{
+  border: 2px solid darkslategray;
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.reset-button{
+  border: 2px solid midnightblue;
+  background: #0f0c29;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
